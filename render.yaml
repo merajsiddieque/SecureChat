@@ -1,0 +1,10 @@
+services:
+  - name: securechat
+    type: web
+    env: static
+    rootDir: react
+    buildCommand: npm install && npm run build
+    staticPublishPath: dist
+    envVars:
+      - key: NODE_VERSION
+        value: 18
