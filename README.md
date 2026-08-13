@@ -219,7 +219,7 @@ This project was built to learn:
 
 # 👨‍💻 Author
 
-**Siddique**
+**Meraj Alam Siddique**
 
 GitHub:
 
