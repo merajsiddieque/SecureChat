@@ -6,14 +6,14 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBqt-gGi4zTNfkkpgG5Ho1QBLBFZwO98CY",
-  authDomain: "techphobia-63d91.firebaseapp.com",
-  databaseURL: "https://techphobia-63d91-default-rtdb.firebaseio.com",
-  projectId: "techphobia-63d91",
-  storageBucket: "techphobia-63d91.firebasestorage.app",
-  messagingSenderId: "977925384501",
-  appId: "1:977925384501:web:1a125a6ed5e2a82e3c447c",
-  measurementId: "G-46S4BV1JWR"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  databaseURL: import.meta.env.VITE_FIREBASE_DATABASE_URL,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
+  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID
 };
 
 // Initialize Firebase
